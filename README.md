@@ -1,5 +1,15 @@
 # SmokeyObfuscator - Universal .NET C# Obfuscator for Windows
 
+< EDIT 2. '12:00AM EST 09/29/2024 as of this Update' >
+---------------------------------------------------
+I tinkered slightly as I said with the first Update of my Forked-repo with Renaming of Classes again.
+I also started moving into the Namespace Renaming + Testing on small scale / small application. 
+Kept fairly simple just for quick-runtime testing how it held up after using a quick built .exe using CodeDomCompiler followed by Obfuscating.
+Seem's to be running fairly nice still, ran into a few small issues with dnlib 'TypeRef' but I also was using older dnlib updated and working fine.
+I will give more detail into those different dnlib Issues just so anyone wanting to mess with it and may come accross same issues, mostly easy small fixes.
+![alt text](https://i.ibb.co/1bNjNQR/testedobfu-working.png)
+
+< EDIT 1. Original / First Update just after Forked-Repo '3:55PM EST 09/28/2024 as of this Update' >
 First off shout-out to @Gerbsec for this application, as it's a great base for someone like me to go from and not just a base a very-decent and neatly written way to go about this, as i've not really seen it done this way often but I like it lot and plan to work off this for quite some time. I will be closig up a private project for a priavte customer that was taking up a great deal of my time, and I'll be back to way more free-time & more time for me to work on this, and I look forward to it. Although I have not had any chance to speak to @gerbsec or any for that matter about possible getting a nice group together and really making this into something great as I think it has potential. I added a 'RenameClasses.cs' into the Protections list along-side the other files from original created: '@gerbsec'. I intend on updating the thread / repository in just a few hours -- or by the end of the Night > Currently 3:55PM EST 09/28/2024 as of this writing for reference. If you are interested in working along-side on this project perhaps we can start a telegram/signal/whats-app/discord type group if it makes any noise so to say. I'll attach 2 pictures, 1 of the 'RenameClasses.cs' I added to and a picture with the Symbols/Chars for renaming with all different sets/what worked the best etc.. might make a Form with options etc. like a .NET Reactor type look (But new and better) but with the appropriate options for building/editing the file or excluding due to certain .exe obfuscations when crypted being compatible etc..
 
 RenameClasses.cs with Testing out of different Symbols/Chars. for All renaming.
